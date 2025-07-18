@@ -1,0 +1,29 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: GATEWAY-API
+
+#  cloud:
+#    gateway:
+#      server:
+#        webflux:
+#          routes:
+#            - id: USER-SERVICE
+#              uri: lb://USER-SERVICE
+#              predicates:
+#                - Path=/user-api/**
+#            - id: MECHANIC-SERVICE
+#              uri: lb://MECHANIC-SERVICE
+#              predicates:
+#                - Path=/mechanic-api/**
+#            - id: BOOKING-SERVICE
+#              uri: lb://BOOKING-SERVICE
+#              predicates:
+#                - Path=/booking-api/**
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+
+    

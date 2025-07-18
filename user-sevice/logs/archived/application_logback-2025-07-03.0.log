@@ -1,0 +1,1474 @@
+2025-06-13 14:51:32 [restartedMain] INFO  : Starting ClickfixApplication using Java 21.0.6 with PID 5528 (C:\Users\2393375\Downloads\clickfix 3\clickfix\target\classes started by 2393375 in C:\Users\2393375\Downloads\clickfix 3\clickfix)
+2025-06-13 14:51:32 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2025-06-13 14:51:33 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-13 14:51:33 [restartedMain] INFO  : Finished Spring Data repository scanning in 22 ms. Found 5 JPA repository interfaces.
+2025-06-13 14:51:33 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2025-06-13 14:51:33 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2025-06-13 14:51:33 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-13 14:51:33 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-13 14:51:33 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-13 14:51:33 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 455 ms
+2025-06-13 14:51:33 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-13 14:51:33 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-13 14:51:33 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-13 14:51:33 [restartedMain] INFO  : HikariPool-5 - Starting...
+2025-06-13 14:51:33 [restartedMain] INFO  : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2bbadf15
+2025-06-13 14:51:33 [restartedMain] INFO  : HikariPool-5 - Start completed.
+2025-06-13 14:51:33 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-13 14:51:33 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-13 14:51:33 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 14:51:33 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailService
+2025-06-13 14:51:34 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-13 14:51:34 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-06-13 14:51:34 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+2025-06-13 14:51:34 [restartedMain] INFO  : Tomcat started on port 8081 (http) with context path '/'
+2025-06-13 14:51:34 [restartedMain] INFO  : Started ClickfixApplication in 1.539 seconds (process running for 360.26)
+2025-06-13 14:51:34 [restartedMain] INFO  : Condition evaluation unchanged
+2025-06-13 14:51:43 [RMI TCP Connection(20)-127.0.0.1] INFO  : Application shutdown requested.
+2025-06-13 14:51:43 [RMI TCP Connection(20)-127.0.0.1] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-13 14:51:43 [tomcat-shutdown] INFO  : Pausing ProtocolHandler ["http-nio-8081"]
+2025-06-13 14:51:43 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-06-13 14:51:43 [RMI TCP Connection(20)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-8081"]
+2025-06-13 14:51:43 [RMI TCP Connection(20)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 14:51:43 [RMI TCP Connection(20)-127.0.0.1] INFO  : HikariPool-5 - Shutdown initiated...
+2025-06-13 14:51:43 [RMI TCP Connection(20)-127.0.0.1] INFO  : HikariPool-5 - Shutdown completed.
+2025-06-13 14:51:53 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.2.Final
+2025-06-13 14:51:53 [restartedMain] INFO  : Starting ClickfixApplication using Java 21.0.6 with PID 9736 (C:\Users\2393375\Downloads\clickfix 3\clickfix\target\classes started by 2393375 in C:\Users\2393375\Downloads\clickfix 3\clickfix)
+2025-06-13 14:51:53 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2025-06-13 14:51:53 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-13 14:51:53 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-13 14:51:55 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-13 14:51:55 [restartedMain] INFO  : Finished Spring Data repository scanning in 59 ms. Found 5 JPA repository interfaces.
+2025-06-13 14:51:55 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2025-06-13 14:51:55 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2025-06-13 14:51:55 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-13 14:51:55 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-13 14:51:56 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-13 14:51:56 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2147 ms
+2025-06-13 14:51:56 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-13 14:51:56 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-06-13 14:51:56 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-13 14:51:56 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-13 14:51:56 [restartedMain] INFO  : HikariPool-1 - Starting...
+2025-06-13 14:51:57 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13c2ff79
+2025-06-13 14:51:57 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2025-06-13 14:51:57 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-13 14:51:58 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-13 14:51:58 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 14:51:58 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailService
+2025-06-13 14:51:59 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-13 14:51:59 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-06-13 14:51:59 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+2025-06-13 14:51:59 [restartedMain] INFO  : Tomcat started on port 8081 (http) with context path '/'
+2025-06-13 14:51:59 [restartedMain] INFO  : Started ClickfixApplication in 6.737 seconds (process running for 9.918)
+2025-06-13 14:52:08 [http-nio-8081-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-13 14:52:08 [http-nio-8081-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-06-13 14:52:08 [http-nio-8081-exec-1] INFO  : Completed initialization in 1 ms
+2025-06-13 14:52:09 [http-nio-8081-exec-1] INFO  : get user by email method is called
+2025-06-13 14:52:09 [http-nio-8081-exec-1] INFO  : user email ismeena.kit@gmail.com
+2025-06-13 14:52:09 [http-nio-8081-exec-1] INFO  : get by email called service methd
+2025-06-13 14:52:09 [http-nio-8081-exec-1] INFO  : email is passed repo to get the user
+2025-06-13 14:52:09 [http-nio-8081-exec-1] INFO  : user email found
+2025-06-13 14:52:55 [http-nio-8081-exec-3] INFO  : get user by email method is called
+2025-06-13 14:52:55 [http-nio-8081-exec-3] INFO  : user email ismeena.kit@gmail.
+2025-06-13 14:52:55 [http-nio-8081-exec-3] INFO  : get by email called service methd
+2025-06-13 14:52:55 [http-nio-8081-exec-3] INFO  : email is passed repo to get the user
+2025-06-13 14:52:55 [http-nio-8081-exec-3] ERROR : user email is not there in the db
+2025-06-13 14:52:55 [http-nio-8081-exec-3] ERROR : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: user id is not found] with root cause
+java.lang.NullPointerException: user id is not found
+	at com.cts.clickfix.service.UserServiceImpl.getUserByEmail(UserServiceImpl.java:54)
+	at com.cts.clickfix.controller.UserController.getUserByEmail(UserController.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:213)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.cts.clickfix.appconfig.JwtFilter.doFilterInternal(JwtFilter.java:50)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-06-13 15:01:55 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-06-13 15:01:55 [Thread-5] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-13 15:01:55 [tomcat-shutdown] INFO  : Pausing ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:01:55 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-06-13 15:01:55 [Thread-5] INFO  : Stopping ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:01:55 [Thread-5] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 15:01:55 [Thread-5] INFO  : HikariPool-1 - Shutdown initiated...
+2025-06-13 15:01:55 [Thread-5] INFO  : HikariPool-1 - Shutdown completed.
+2025-06-13 15:01:55 [restartedMain] INFO  : Starting ClickfixApplication using Java 21.0.6 with PID 9736 (C:\Users\2393375\Downloads\clickfix 3\clickfix\target\classes started by 2393375 in C:\Users\2393375\Downloads\clickfix 3\clickfix)
+2025-06-13 15:01:55 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2025-06-13 15:01:56 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-13 15:01:56 [restartedMain] INFO  : Finished Spring Data repository scanning in 37 ms. Found 5 JPA repository interfaces.
+2025-06-13 15:01:56 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2025-06-13 15:01:56 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:01:56 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-13 15:01:56 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-13 15:01:56 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-13 15:01:56 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1108 ms
+2025-06-13 15:01:56 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-13 15:01:56 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-13 15:01:56 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-13 15:01:56 [restartedMain] INFO  : HikariPool-2 - Starting...
+2025-06-13 15:01:56 [restartedMain] INFO  : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32d8b1bd
+2025-06-13 15:01:56 [restartedMain] INFO  : HikariPool-2 - Start completed.
+2025-06-13 15:01:56 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-13 15:01:56 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-13 15:01:56 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 15:01:57 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailService
+2025-06-13 15:01:57 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-13 15:01:57 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-06-13 15:01:57 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:01:57 [restartedMain] INFO  : Tomcat started on port 8081 (http) with context path '/'
+2025-06-13 15:01:57 [restartedMain] INFO  : Started ClickfixApplication in 2.311 seconds (process running for 607.688)
+2025-06-13 15:01:57 [restartedMain] INFO  : Condition evaluation unchanged
+2025-06-13 15:02:04 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-06-13 15:02:04 [Thread-7] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-13 15:02:04 [tomcat-shutdown] INFO  : Pausing ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:02:04 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-06-13 15:02:04 [Thread-7] INFO  : Stopping ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:02:04 [Thread-7] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 15:02:04 [Thread-7] INFO  : HikariPool-2 - Shutdown initiated...
+2025-06-13 15:02:04 [Thread-7] INFO  : HikariPool-2 - Shutdown completed.
+2025-06-13 15:02:04 [restartedMain] INFO  : Starting ClickfixApplication using Java 21.0.6 with PID 9736 (C:\Users\2393375\Downloads\clickfix 3\clickfix\target\classes started by 2393375 in C:\Users\2393375\Downloads\clickfix 3\clickfix)
+2025-06-13 15:02:04 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2025-06-13 15:02:05 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-13 15:02:05 [restartedMain] INFO  : Finished Spring Data repository scanning in 65 ms. Found 5 JPA repository interfaces.
+2025-06-13 15:02:05 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2025-06-13 15:02:05 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:02:05 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-13 15:02:05 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-13 15:02:05 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-13 15:02:05 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1033 ms
+2025-06-13 15:02:05 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-13 15:02:05 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-13 15:02:05 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-13 15:02:05 [restartedMain] INFO  : HikariPool-3 - Starting...
+2025-06-13 15:02:06 [restartedMain] INFO  : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44c6ac7e
+2025-06-13 15:02:06 [restartedMain] INFO  : HikariPool-3 - Start completed.
+2025-06-13 15:02:06 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-13 15:02:06 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-13 15:02:06 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 15:02:06 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailService
+2025-06-13 15:02:06 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-13 15:02:06 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-06-13 15:02:06 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:02:06 [restartedMain] INFO  : Tomcat started on port 8081 (http) with context path '/'
+2025-06-13 15:02:06 [restartedMain] INFO  : Started ClickfixApplication in 1.913 seconds (process running for 616.669)
+2025-06-13 15:02:06 [restartedMain] INFO  : Condition evaluation unchanged
+2025-06-13 15:02:15 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-06-13 15:02:15 [Thread-11] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-13 15:02:15 [tomcat-shutdown] INFO  : Pausing ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:02:15 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-06-13 15:02:15 [Thread-11] INFO  : Stopping ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:02:15 [Thread-11] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 15:02:15 [Thread-11] INFO  : HikariPool-3 - Shutdown initiated...
+2025-06-13 15:02:15 [Thread-11] INFO  : HikariPool-3 - Shutdown completed.
+2025-06-13 15:02:15 [restartedMain] INFO  : Starting ClickfixApplication using Java 21.0.6 with PID 9736 (C:\Users\2393375\Downloads\clickfix 3\clickfix\target\classes started by 2393375 in C:\Users\2393375\Downloads\clickfix 3\clickfix)
+2025-06-13 15:02:15 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2025-06-13 15:02:16 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-13 15:02:16 [restartedMain] INFO  : Finished Spring Data repository scanning in 23 ms. Found 5 JPA repository interfaces.
+2025-06-13 15:02:16 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2025-06-13 15:02:16 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:02:16 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-13 15:02:16 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-13 15:02:16 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-13 15:02:16 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 358 ms
+2025-06-13 15:02:16 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-13 15:02:16 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-13 15:02:16 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-13 15:02:16 [restartedMain] INFO  : HikariPool-4 - Starting...
+2025-06-13 15:02:16 [restartedMain] INFO  : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dff7767
+2025-06-13 15:02:16 [restartedMain] INFO  : HikariPool-4 - Start completed.
+2025-06-13 15:02:16 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-13 15:02:16 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-13 15:02:16 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 15:02:16 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailService
+2025-06-13 15:02:16 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-13 15:02:16 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-06-13 15:02:16 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:02:16 [restartedMain] INFO  : Tomcat started on port 8081 (http) with context path '/'
+2025-06-13 15:02:16 [restartedMain] INFO  : Started ClickfixApplication in 0.868 seconds (process running for 626.628)
+2025-06-13 15:02:16 [restartedMain] INFO  : Condition evaluation unchanged
+2025-06-13 15:03:12 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-06-13 15:03:12 [Thread-15] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-13 15:03:12 [tomcat-shutdown] INFO  : Pausing ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:03:12 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-06-13 15:03:12 [Thread-15] INFO  : Stopping ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:03:12 [Thread-15] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 15:03:12 [Thread-15] INFO  : HikariPool-4 - Shutdown initiated...
+2025-06-13 15:03:12 [Thread-15] INFO  : HikariPool-4 - Shutdown completed.
+2025-06-13 15:03:12 [restartedMain] INFO  : Starting ClickfixApplication using Java 21.0.6 with PID 9736 (C:\Users\2393375\Downloads\clickfix 3\clickfix\target\classes started by 2393375 in C:\Users\2393375\Downloads\clickfix 3\clickfix)
+2025-06-13 15:03:12 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2025-06-13 15:03:12 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-13 15:03:12 [restartedMain] INFO  : Finished Spring Data repository scanning in 56 ms. Found 5 JPA repository interfaces.
+2025-06-13 15:03:12 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2025-06-13 15:03:12 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:03:12 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-13 15:03:12 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-13 15:03:12 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-13 15:03:12 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 565 ms
+2025-06-13 15:03:12 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-13 15:03:12 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-13 15:03:12 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-13 15:03:12 [restartedMain] INFO  : HikariPool-5 - Starting...
+2025-06-13 15:03:12 [restartedMain] INFO  : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c040334
+2025-06-13 15:03:12 [restartedMain] INFO  : HikariPool-5 - Start completed.
+2025-06-13 15:03:12 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-13 15:03:12 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-13 15:03:12 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 15:03:12 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailService
+2025-06-13 15:03:12 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-13 15:03:13 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-06-13 15:03:13 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:03:13 [restartedMain] INFO  : Tomcat started on port 8081 (http) with context path '/'
+2025-06-13 15:03:13 [restartedMain] INFO  : Started ClickfixApplication in 1.089 seconds (process running for 683.253)
+2025-06-13 15:03:13 [restartedMain] INFO  : Condition evaluation unchanged
+2025-06-13 15:03:23 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-06-13 15:03:23 [Thread-19] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-13 15:03:23 [tomcat-shutdown] INFO  : Pausing ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:03:23 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-06-13 15:03:23 [Thread-19] INFO  : Stopping ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:03:23 [Thread-19] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 15:03:23 [Thread-19] INFO  : HikariPool-5 - Shutdown initiated...
+2025-06-13 15:03:23 [Thread-19] INFO  : HikariPool-5 - Shutdown completed.
+2025-06-13 15:03:23 [restartedMain] INFO  : Starting ClickfixApplication using Java 21.0.6 with PID 9736 (C:\Users\2393375\Downloads\clickfix 3\clickfix\target\classes started by 2393375 in C:\Users\2393375\Downloads\clickfix 3\clickfix)
+2025-06-13 15:03:23 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2025-06-13 15:03:23 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-13 15:03:23 [restartedMain] INFO  : Finished Spring Data repository scanning in 27 ms. Found 5 JPA repository interfaces.
+2025-06-13 15:03:24 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2025-06-13 15:03:24 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:03:24 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-13 15:03:24 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-13 15:03:24 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-13 15:03:24 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 665 ms
+2025-06-13 15:03:24 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-13 15:03:24 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-13 15:03:24 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-13 15:03:24 [restartedMain] INFO  : HikariPool-6 - Starting...
+2025-06-13 15:03:24 [restartedMain] INFO  : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@453182c
+2025-06-13 15:03:24 [restartedMain] INFO  : HikariPool-6 - Start completed.
+2025-06-13 15:03:24 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-13 15:03:24 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-13 15:03:24 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 15:03:24 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailService
+2025-06-13 15:03:24 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-13 15:03:24 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-06-13 15:03:25 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:03:25 [restartedMain] INFO  : Tomcat started on port 8081 (http) with context path '/'
+2025-06-13 15:03:25 [restartedMain] INFO  : Started ClickfixApplication in 1.562 seconds (process running for 695.044)
+2025-06-13 15:03:25 [restartedMain] INFO  : Condition evaluation unchanged
+2025-06-13 15:13:09 [RMI TCP Connection(39)-127.0.0.1] INFO  : Application shutdown requested.
+2025-06-13 15:13:09 [RMI TCP Connection(39)-127.0.0.1] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-13 15:13:09 [tomcat-shutdown] INFO  : Pausing ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:13:09 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-06-13 15:13:09 [RMI TCP Connection(39)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-8081"]
+2025-06-13 15:13:09 [RMI TCP Connection(39)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 15:13:09 [RMI TCP Connection(39)-127.0.0.1] INFO  : HikariPool-6 - Shutdown initiated...
+2025-06-13 15:13:09 [RMI TCP Connection(39)-127.0.0.1] INFO  : HikariPool-6 - Shutdown completed.
+2025-07-03 15:48:52 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.2.Final
+2025-07-03 15:48:52 [restartedMain] INFO  : Starting ClickfixApplication using Java 21.0.6 with PID 22072 (C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice\target\classes started by 2393375 in C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice)
+2025-07-03 15:48:52 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 15:48:52 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 15:48:52 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 15:48:54 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 15:48:54 [restartedMain] INFO  : Finished Spring Data repository scanning in 224 ms. Found 5 JPA repository interfaces.
+2025-07-03 15:48:54 [restartedMain] INFO  : BeanFactory id=069aa545-0868-3089-9db5-2101f746a7cd
+2025-07-03 15:48:55 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2025-07-03 15:48:55 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2025-07-03 15:48:55 [restartedMain] INFO  : Starting service [Tomcat]
+2025-07-03 15:48:55 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-03 15:48:55 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-07-03 15:48:55 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 3203 ms
+2025-07-03 15:48:56 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 15:48:56 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-07-03 15:48:56 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-07-03 15:48:56 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 15:48:56 [restartedMain] INFO  : HikariPool-1 - Starting...
+2025-07-03 15:48:56 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48bf881f
+2025-07-03 15:48:56 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2025-07-03 15:48:57 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 15:48:58 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 15:48:58 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 15:48:59 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailService
+2025-07-03 15:48:59 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 15:49:00 [restartedMain] WARN  : Unable to start LiveReload server
+2025-07-03 15:49:00 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2025-07-03 15:49:00 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-03 15:49:00 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2025-07-03 15:49:00 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2025-07-03 15:49:00 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 15:49:00 [restartedMain] INFO  : Disable delta property : false
+2025-07-03 15:49:00 [restartedMain] INFO  : Single vip registry refresh property : null
+2025-07-03 15:49:00 [restartedMain] INFO  : Force full registry fetch : false
+2025-07-03 15:49:00 [restartedMain] INFO  : Application is null : false
+2025-07-03 15:49:00 [restartedMain] INFO  : Registered Applications size is zero : true
+2025-07-03 15:49:00 [restartedMain] INFO  : Application version is -1: true
+2025-07-03 15:49:00 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2025-07-03 15:49:00 [restartedMain] INFO  : The response status is 200
+2025-07-03 15:49:00 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2025-07-03 15:49:00 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-03 15:49:00 [restartedMain] INFO  : Discovery Client initialized at timestamp 1751537940915 with initial instances count: 2
+2025-07-03 15:49:00 [restartedMain] INFO  : Registering application CLICKFIX with eureka with status UP
+2025-07-03 15:49:00 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1751537940921, current=UP, previous=STARTING]
+2025-07-03 15:49:00 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+2025-07-03 15:49:00 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_CLICKFIX/LTIN606946.cts.com:clickfix:8081: registering service...
+2025-07-03 15:49:00 [restartedMain] INFO  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-03 15:49:00 [restartedMain] INFO  : Updating port to 8081
+2025-07-03 15:49:00 [restartedMain] INFO  : Started ClickfixApplication in 9.072 seconds (process running for 11.255)
+2025-07-03 15:49:00 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_CLICKFIX/LTIN606946.cts.com:clickfix:8081 - registration status: 204
+2025-07-03 15:49:27 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-03 15:49:27 [Thread-1] INFO  : Unregistering application CLICKFIX with eureka with status DOWN
+2025-07-03 15:49:27 [Thread-1] INFO  : Saw local status change event StatusChangeEvent [timestamp=1751537967506, current=DOWN, previous=UP]
+2025-07-03 15:49:27 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_CLICKFIX/LTIN606946.cts.com:clickfix:8081: registering service...
+2025-07-03 15:49:27 [Thread-1] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 15:49:27 [tomcat-shutdown] INFO  : Pausing ProtocolHandler ["http-nio-8081"]
+2025-07-03 15:49:27 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_CLICKFIX/LTIN606946.cts.com:clickfix:8081 - registration status: 204
+2025-07-03 15:49:27 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-07-03 15:49:27 [Thread-1] INFO  : Stopping ProtocolHandler ["http-nio-8081"]
+2025-07-03 15:49:27 [Thread-1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 15:49:27 [Thread-1] INFO  : HikariPool-1 - Shutdown initiated...
+2025-07-03 15:49:27 [Thread-1] INFO  : HikariPool-1 - Shutdown completed.
+2025-07-03 15:49:27 [Thread-1] INFO  : Shutting down DiscoveryClient ...
+2025-07-03 15:49:30 [Thread-1] INFO  : Unregistering ...
+2025-07-03 15:49:30 [Thread-1] INFO  : DiscoveryClient_CLICKFIX/LTIN606946.cts.com:clickfix:8081 - deregister  status: 200
+2025-07-03 15:49:30 [Thread-1] INFO  : Completed shut down of DiscoveryClient
+2025-07-03 15:49:30 [restartedMain] INFO  : Starting ClickfixApplication using Java 21.0.6 with PID 22072 (C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice\target\classes started by 2393375 in C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice)
+2025-07-03 15:49:30 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 15:49:31 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 15:49:31 [restartedMain] INFO  : Finished Spring Data repository scanning in 24 ms. Found 5 JPA repository interfaces.
+2025-07-03 15:49:31 [restartedMain] INFO  : BeanFactory id=069aa545-0868-3089-9db5-2101f746a7cd
+2025-07-03 15:49:31 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2025-07-03 15:49:31 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2025-07-03 15:49:31 [restartedMain] INFO  : Starting service [Tomcat]
+2025-07-03 15:49:31 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-03 15:49:31 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-07-03 15:49:31 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 658 ms
+2025-07-03 15:49:31 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 15:49:31 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-07-03 15:49:31 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 15:49:31 [restartedMain] INFO  : HikariPool-2 - Starting...
+2025-07-03 15:49:31 [restartedMain] INFO  : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3536d0e9
+2025-07-03 15:49:31 [restartedMain] INFO  : HikariPool-2 - Start completed.
+2025-07-03 15:49:31 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 15:49:31 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 15:49:31 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 15:49:31 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailService
+2025-07-03 15:49:31 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 15:49:32 [restartedMain] WARN  : Unable to start LiveReload server
+2025-07-03 15:49:32 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2025-07-03 15:49:32 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-03 15:49:32 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2025-07-03 15:49:32 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2025-07-03 15:49:32 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 15:49:32 [restartedMain] INFO  : Disable delta property : false
+2025-07-03 15:49:32 [restartedMain] INFO  : Single vip registry refresh property : null
+2025-07-03 15:49:32 [restartedMain] INFO  : Force full registry fetch : false
+2025-07-03 15:49:32 [restartedMain] INFO  : Application is null : false
+2025-07-03 15:49:32 [restartedMain] INFO  : Registered Applications size is zero : true
+2025-07-03 15:49:32 [restartedMain] INFO  : Application version is -1: true
+2025-07-03 15:49:32 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2025-07-03 15:49:32 [restartedMain] INFO  : The response status is 200
+2025-07-03 15:49:32 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2025-07-03 15:49:32 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-03 15:49:32 [restartedMain] INFO  : Discovery Client initialized at timestamp 1751537972190 with initial instances count: 3
+2025-07-03 15:49:32 [restartedMain] INFO  : Registering application USER-SERVICE with eureka with status UP
+2025-07-03 15:49:32 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1751537972192, current=UP, previous=STARTING]
+2025-07-03 15:49:32 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081: registering service...
+2025-07-03 15:49:32 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+2025-07-03 15:49:32 [restartedMain] INFO  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-03 15:49:32 [restartedMain] INFO  : Updating port to 8081
+2025-07-03 15:49:32 [restartedMain] INFO  : Started ClickfixApplication in 1.58 seconds (process running for 42.485)
+2025-07-03 15:49:32 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - registration status: 204
+2025-07-03 15:54:32 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 15:59:32 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 16:04:32 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 16:09:32 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 16:14:32 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 16:19:32 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 16:24:32 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 16:29:32 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 17:08:04 [HikariPool-2:housekeeper] WARN  : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=38m32s658ms542µs500ns).
+2025-07-03 17:12:42 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 17:17:42 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 17:22:42 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 17:27:42 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 17:32:42 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 17:37:42 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 17:42:43 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 17:47:43 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 17:52:43 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 17:54:59 [File Watcher] INFO  : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-07-03 17:54:59 [Thread-7] INFO  : Unregistering application USER-SERVICE with eureka with status DOWN
+2025-07-03 17:54:59 [Thread-7] INFO  : Saw local status change event StatusChangeEvent [timestamp=1751545499385, current=DOWN, previous=UP]
+2025-07-03 17:54:59 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081: registering service...
+2025-07-03 17:54:59 [Thread-7] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 17:54:59 [tomcat-shutdown] INFO  : Pausing ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:54:59 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-07-03 17:54:59 [Thread-7] INFO  : Stopping ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:54:59 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - registration status: 204
+2025-07-03 17:54:59 [Thread-7] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 17:54:59 [Thread-7] INFO  : HikariPool-2 - Shutdown initiated...
+2025-07-03 17:54:59 [Thread-7] INFO  : HikariPool-2 - Shutdown completed.
+2025-07-03 17:54:59 [Thread-7] INFO  : Shutting down DiscoveryClient ...
+2025-07-03 17:55:02 [Thread-7] INFO  : Unregistering ...
+2025-07-03 17:55:02 [Thread-7] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - deregister  status: 200
+2025-07-03 17:55:02 [Thread-7] INFO  : Completed shut down of DiscoveryClient
+2025-07-03 17:55:02 [restartedMain] INFO  : Starting ClickfixApplication using Java 21.0.6 with PID 22072 (C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice\target\classes started by 2393375 in C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice)
+2025-07-03 17:55:02 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 17:55:03 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 17:55:03 [restartedMain] INFO  : Finished Spring Data repository scanning in 110 ms. Found 5 JPA repository interfaces.
+2025-07-03 17:55:03 [restartedMain] INFO  : BeanFactory id=069aa545-0868-3089-9db5-2101f746a7cd
+2025-07-03 17:55:04 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2025-07-03 17:55:04 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:55:04 [restartedMain] INFO  : Starting service [Tomcat]
+2025-07-03 17:55:04 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-03 17:55:04 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-07-03 17:55:04 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1288 ms
+2025-07-03 17:55:04 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 17:55:04 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-07-03 17:55:04 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 17:55:04 [restartedMain] INFO  : HikariPool-3 - Starting...
+2025-07-03 17:55:04 [restartedMain] INFO  : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@916dbd8
+2025-07-03 17:55:04 [restartedMain] INFO  : HikariPool-3 - Start completed.
+2025-07-03 17:55:04 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 17:55:04 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 17:55:04 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 17:55:04 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailService
+2025-07-03 17:55:04 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 17:55:05 [restartedMain] WARN  : Unable to start LiveReload server
+2025-07-03 17:55:05 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2025-07-03 17:55:05 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-03 17:55:05 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2025-07-03 17:55:05 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2025-07-03 17:55:05 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 17:55:05 [restartedMain] INFO  : Disable delta property : false
+2025-07-03 17:55:05 [restartedMain] INFO  : Single vip registry refresh property : null
+2025-07-03 17:55:05 [restartedMain] INFO  : Force full registry fetch : false
+2025-07-03 17:55:05 [restartedMain] INFO  : Application is null : false
+2025-07-03 17:55:05 [restartedMain] INFO  : Registered Applications size is zero : true
+2025-07-03 17:55:05 [restartedMain] INFO  : Application version is -1: true
+2025-07-03 17:55:05 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2025-07-03 17:55:05 [restartedMain] INFO  : The response status is 200
+2025-07-03 17:55:05 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2025-07-03 17:55:05 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-03 17:55:05 [restartedMain] INFO  : Discovery Client initialized at timestamp 1751545505333 with initial instances count: 3
+2025-07-03 17:55:05 [restartedMain] INFO  : Registering application USER-SERVICE with eureka with status UP
+2025-07-03 17:55:05 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1751545505339, current=UP, previous=STARTING]
+2025-07-03 17:55:05 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081: registering service...
+2025-07-03 17:55:05 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:55:05 [restartedMain] INFO  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-03 17:55:05 [restartedMain] INFO  : Updating port to 8081
+2025-07-03 17:55:05 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - registration status: 204
+2025-07-03 17:55:05 [restartedMain] INFO  : Started ClickfixApplication in 2.646 seconds (process running for 7575.662)
+2025-07-03 17:55:05 [restartedMain] INFO  : Condition evaluation unchanged
+2025-07-03 17:55:06 [File Watcher] INFO  : Restarting due to 51 class path changes (0 additions, 0 deletions, 51 modifications)
+2025-07-03 17:55:06 [Thread-13] INFO  : Unregistering application USER-SERVICE with eureka with status DOWN
+2025-07-03 17:55:06 [Thread-13] INFO  : Saw local status change event StatusChangeEvent [timestamp=1751545506683, current=DOWN, previous=UP]
+2025-07-03 17:55:06 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081: registering service...
+2025-07-03 17:55:06 [Thread-13] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 17:55:06 [tomcat-shutdown] INFO  : Pausing ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:55:06 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - registration status: 204
+2025-07-03 17:55:06 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-07-03 17:55:06 [Thread-13] INFO  : Stopping ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:55:06 [Thread-13] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 17:55:06 [Thread-13] INFO  : HikariPool-3 - Shutdown initiated...
+2025-07-03 17:55:06 [Thread-13] INFO  : HikariPool-3 - Shutdown completed.
+2025-07-03 17:55:06 [Thread-13] INFO  : Shutting down DiscoveryClient ...
+2025-07-03 17:55:09 [Thread-13] INFO  : Unregistering ...
+2025-07-03 17:55:09 [Thread-13] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - deregister  status: 200
+2025-07-03 17:55:09 [Thread-13] INFO  : Completed shut down of DiscoveryClient
+2025-07-03 17:55:10 [restartedMain] INFO  : Starting ClickfixApplication using Java 21.0.6 with PID 22072 (C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice\target\classes started by 2393375 in C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice)
+2025-07-03 17:55:10 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 17:55:10 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 17:55:10 [restartedMain] INFO  : Finished Spring Data repository scanning in 29 ms. Found 5 JPA repository interfaces.
+2025-07-03 17:55:10 [restartedMain] INFO  : BeanFactory id=069aa545-0868-3089-9db5-2101f746a7cd
+2025-07-03 17:55:10 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2025-07-03 17:55:10 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:55:10 [restartedMain] INFO  : Starting service [Tomcat]
+2025-07-03 17:55:10 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-03 17:55:10 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-07-03 17:55:10 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 654 ms
+2025-07-03 17:55:10 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 17:55:10 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-07-03 17:55:10 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 17:55:10 [restartedMain] INFO  : HikariPool-4 - Starting...
+2025-07-03 17:55:10 [restartedMain] INFO  : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ddf994e
+2025-07-03 17:55:10 [restartedMain] INFO  : HikariPool-4 - Start completed.
+2025-07-03 17:55:10 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 17:55:11 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 17:55:11 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 17:55:11 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailService
+2025-07-03 17:55:11 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 17:55:11 [restartedMain] WARN  : Unable to start LiveReload server
+2025-07-03 17:55:11 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2025-07-03 17:55:11 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-03 17:55:11 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2025-07-03 17:55:11 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2025-07-03 17:55:11 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 17:55:11 [restartedMain] INFO  : Disable delta property : false
+2025-07-03 17:55:11 [restartedMain] INFO  : Single vip registry refresh property : null
+2025-07-03 17:55:11 [restartedMain] INFO  : Force full registry fetch : false
+2025-07-03 17:55:11 [restartedMain] INFO  : Application is null : false
+2025-07-03 17:55:11 [restartedMain] INFO  : Registered Applications size is zero : true
+2025-07-03 17:55:11 [restartedMain] INFO  : Application version is -1: true
+2025-07-03 17:55:11 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2025-07-03 17:55:11 [restartedMain] INFO  : The response status is 200
+2025-07-03 17:55:11 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2025-07-03 17:55:11 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-03 17:55:11 [restartedMain] INFO  : Discovery Client initialized at timestamp 1751545511483 with initial instances count: 3
+2025-07-03 17:55:11 [restartedMain] INFO  : Registering application USER-SERVICE with eureka with status UP
+2025-07-03 17:55:11 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1751545511488, current=UP, previous=STARTING]
+2025-07-03 17:55:11 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081: registering service...
+2025-07-03 17:55:11 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:55:11 [restartedMain] INFO  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-03 17:55:11 [restartedMain] INFO  : Updating port to 8081
+2025-07-03 17:55:11 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - registration status: 204
+2025-07-03 17:55:11 [restartedMain] INFO  : Started ClickfixApplication in 1.643 seconds (process running for 7581.813)
+2025-07-03 17:55:11 [restartedMain] INFO  : Condition evaluation unchanged
+2025-07-03 17:55:25 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-03 17:55:25 [Thread-19] INFO  : Unregistering application USER-SERVICE with eureka with status DOWN
+2025-07-03 17:55:25 [Thread-19] INFO  : Saw local status change event StatusChangeEvent [timestamp=1751545525547, current=DOWN, previous=UP]
+2025-07-03 17:55:25 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081: registering service...
+2025-07-03 17:55:25 [Thread-19] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 17:55:25 [tomcat-shutdown] INFO  : Pausing ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:55:25 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-07-03 17:55:25 [Thread-19] INFO  : Stopping ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:55:25 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - registration status: 204
+2025-07-03 17:55:25 [Thread-19] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 17:55:25 [Thread-19] INFO  : HikariPool-4 - Shutdown initiated...
+2025-07-03 17:55:25 [Thread-19] INFO  : HikariPool-4 - Shutdown completed.
+2025-07-03 17:55:25 [Thread-19] INFO  : Shutting down DiscoveryClient ...
+2025-07-03 17:55:28 [Thread-19] INFO  : Unregistering ...
+2025-07-03 17:55:28 [Thread-19] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - deregister  status: 200
+2025-07-03 17:55:28 [Thread-19] INFO  : Completed shut down of DiscoveryClient
+2025-07-03 17:55:28 [restartedMain] INFO  : Starting ClickfixApplication using Java 21.0.6 with PID 22072 (C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice\target\classes started by 2393375 in C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice)
+2025-07-03 17:55:28 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 17:55:29 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 17:55:29 [restartedMain] INFO  : Finished Spring Data repository scanning in 19 ms. Found 5 JPA repository interfaces.
+2025-07-03 17:55:29 [restartedMain] INFO  : BeanFactory id=069aa545-0868-3089-9db5-2101f746a7cd
+2025-07-03 17:55:29 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2025-07-03 17:55:29 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:55:29 [restartedMain] INFO  : Starting service [Tomcat]
+2025-07-03 17:55:29 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-03 17:55:29 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-07-03 17:55:29 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 692 ms
+2025-07-03 17:55:29 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 17:55:29 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-07-03 17:55:29 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 17:55:29 [restartedMain] INFO  : HikariPool-5 - Starting...
+2025-07-03 17:55:29 [restartedMain] INFO  : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fb15a4b
+2025-07-03 17:55:29 [restartedMain] INFO  : HikariPool-5 - Start completed.
+2025-07-03 17:55:29 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 17:55:29 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 17:55:29 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 17:55:29 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailService
+2025-07-03 17:55:29 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 17:55:30 [restartedMain] WARN  : Unable to start LiveReload server
+2025-07-03 17:55:30 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2025-07-03 17:55:30 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-03 17:55:30 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2025-07-03 17:55:30 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2025-07-03 17:55:30 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 17:55:30 [restartedMain] INFO  : Disable delta property : false
+2025-07-03 17:55:30 [restartedMain] INFO  : Single vip registry refresh property : null
+2025-07-03 17:55:30 [restartedMain] INFO  : Force full registry fetch : false
+2025-07-03 17:55:30 [restartedMain] INFO  : Application is null : false
+2025-07-03 17:55:30 [restartedMain] INFO  : Registered Applications size is zero : true
+2025-07-03 17:55:30 [restartedMain] INFO  : Application version is -1: true
+2025-07-03 17:55:30 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2025-07-03 17:55:30 [restartedMain] INFO  : The response status is 200
+2025-07-03 17:55:30 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2025-07-03 17:55:30 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-03 17:55:30 [restartedMain] INFO  : Discovery Client initialized at timestamp 1751545530361 with initial instances count: 3
+2025-07-03 17:55:30 [restartedMain] INFO  : Registering application USER-SERVICE with eureka with status UP
+2025-07-03 17:55:30 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1751545530363, current=UP, previous=STARTING]
+2025-07-03 17:55:30 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081: registering service...
+2025-07-03 17:55:30 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:55:30 [restartedMain] INFO  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-03 17:55:30 [restartedMain] INFO  : Updating port to 8081
+2025-07-03 17:55:30 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - registration status: 204
+2025-07-03 17:55:30 [restartedMain] INFO  : Started ClickfixApplication in 1.581 seconds (process running for 7600.65)
+2025-07-03 17:55:30 [restartedMain] INFO  : Condition evaluation unchanged
+2025-07-03 17:56:31 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-03 17:56:31 [Thread-25] INFO  : Unregistering application USER-SERVICE with eureka with status DOWN
+2025-07-03 17:56:31 [Thread-25] INFO  : Saw local status change event StatusChangeEvent [timestamp=1751545591239, current=DOWN, previous=UP]
+2025-07-03 17:56:31 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081: registering service...
+2025-07-03 17:56:31 [Thread-25] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 17:56:31 [tomcat-shutdown] INFO  : Pausing ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:56:31 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - registration status: 204
+2025-07-03 17:56:31 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-07-03 17:56:31 [Thread-25] INFO  : Stopping ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:56:31 [Thread-25] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 17:56:31 [Thread-25] INFO  : HikariPool-5 - Shutdown initiated...
+2025-07-03 17:56:31 [Thread-25] INFO  : HikariPool-5 - Shutdown completed.
+2025-07-03 17:56:31 [Thread-25] INFO  : Shutting down DiscoveryClient ...
+2025-07-03 17:56:34 [Thread-25] INFO  : Unregistering ...
+2025-07-03 17:56:34 [Thread-25] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - deregister  status: 200
+2025-07-03 17:56:34 [Thread-25] INFO  : Completed shut down of DiscoveryClient
+2025-07-03 17:56:34 [restartedMain] INFO  : Starting ClickfixApplication using Java 21.0.6 with PID 22072 (C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice\target\classes started by 2393375 in C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice)
+2025-07-03 17:56:34 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 17:56:34 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 17:56:34 [restartedMain] INFO  : Finished Spring Data repository scanning in 44 ms. Found 5 JPA repository interfaces.
+2025-07-03 17:56:34 [restartedMain] INFO  : BeanFactory id=069aa545-0868-3089-9db5-2101f746a7cd
+2025-07-03 17:56:34 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2025-07-03 17:56:34 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:56:34 [restartedMain] INFO  : Starting service [Tomcat]
+2025-07-03 17:56:34 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-03 17:56:34 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-07-03 17:56:34 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 483 ms
+2025-07-03 17:56:34 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 17:56:34 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-07-03 17:56:34 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 17:56:34 [restartedMain] INFO  : HikariPool-6 - Starting...
+2025-07-03 17:56:34 [restartedMain] INFO  : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@161751f5
+2025-07-03 17:56:34 [restartedMain] INFO  : HikariPool-6 - Start completed.
+2025-07-03 17:56:34 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 17:56:35 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 17:56:35 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 17:56:35 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailService
+2025-07-03 17:56:35 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 17:56:35 [restartedMain] WARN  : Unable to start LiveReload server
+2025-07-03 17:56:35 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2025-07-03 17:56:35 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-03 17:56:35 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2025-07-03 17:56:35 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2025-07-03 17:56:35 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 17:56:35 [restartedMain] INFO  : Disable delta property : false
+2025-07-03 17:56:35 [restartedMain] INFO  : Single vip registry refresh property : null
+2025-07-03 17:56:35 [restartedMain] INFO  : Force full registry fetch : false
+2025-07-03 17:56:35 [restartedMain] INFO  : Application is null : false
+2025-07-03 17:56:35 [restartedMain] INFO  : Registered Applications size is zero : true
+2025-07-03 17:56:35 [restartedMain] INFO  : Application version is -1: true
+2025-07-03 17:56:35 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2025-07-03 17:56:35 [restartedMain] INFO  : The response status is 200
+2025-07-03 17:56:35 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2025-07-03 17:56:35 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-03 17:56:35 [restartedMain] INFO  : Discovery Client initialized at timestamp 1751545595486 with initial instances count: 3
+2025-07-03 17:56:35 [restartedMain] INFO  : Registering application USER-SERVICE with eureka with status UP
+2025-07-03 17:56:35 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1751545595487, current=UP, previous=STARTING]
+2025-07-03 17:56:35 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081: registering service...
+2025-07-03 17:56:35 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:56:35 [restartedMain] INFO  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-03 17:56:35 [restartedMain] INFO  : Updating port to 8081
+2025-07-03 17:56:35 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - registration status: 204
+2025-07-03 17:56:35 [restartedMain] INFO  : Started ClickfixApplication in 1.157 seconds (process running for 7665.783)
+2025-07-03 17:56:35 [restartedMain] INFO  : Condition evaluation unchanged
+2025-07-03 17:56:46 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-03 17:56:46 [Thread-31] INFO  : Unregistering application USER-SERVICE with eureka with status DOWN
+2025-07-03 17:56:46 [Thread-31] INFO  : Saw local status change event StatusChangeEvent [timestamp=1751545606331, current=DOWN, previous=UP]
+2025-07-03 17:56:46 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081: registering service...
+2025-07-03 17:56:46 [Thread-31] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 17:56:46 [tomcat-shutdown] INFO  : Pausing ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:56:46 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - registration status: 204
+2025-07-03 17:56:46 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-07-03 17:56:46 [Thread-31] INFO  : Stopping ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:56:46 [Thread-31] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 17:56:46 [Thread-31] INFO  : HikariPool-6 - Shutdown initiated...
+2025-07-03 17:56:46 [Thread-31] INFO  : HikariPool-6 - Shutdown completed.
+2025-07-03 17:56:46 [Thread-31] INFO  : Shutting down DiscoveryClient ...
+2025-07-03 17:56:49 [Thread-31] INFO  : Unregistering ...
+2025-07-03 17:56:49 [Thread-31] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - deregister  status: 200
+2025-07-03 17:56:49 [Thread-31] INFO  : Completed shut down of DiscoveryClient
+2025-07-03 17:56:49 [restartedMain] INFO  : Starting ClickfixApplication using Java 21.0.6 with PID 22072 (C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice\target\classes started by 2393375 in C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice)
+2025-07-03 17:56:49 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 17:56:50 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 17:56:50 [restartedMain] INFO  : Finished Spring Data repository scanning in 23 ms. Found 5 JPA repository interfaces.
+2025-07-03 17:56:50 [restartedMain] INFO  : BeanFactory id=069aa545-0868-3089-9db5-2101f746a7cd
+2025-07-03 17:56:50 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2025-07-03 17:56:50 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2025-07-03 17:56:50 [restartedMain] INFO  : Starting service [Tomcat]
+2025-07-03 17:56:50 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-03 17:56:50 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-07-03 17:56:50 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 692 ms
+2025-07-03 17:56:50 [restartedMain] ERROR : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'customUserDetailService': Error creating bean with name 'customUserDetailService': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.cts.clickfix.repository.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+2025-07-03 17:56:50 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-07-03 17:56:50 [restartedMain] WARN  : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2025-07-03 17:56:50 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-03 17:56:50 [restartedMain] ERROR : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2025-07-03 18:00:15 [background-preinit] INFO  : HV000001: Hibernate Validator 8.0.2.Final
+2025-07-03 18:00:15 [restartedMain] INFO  : Starting ClickfixApplication using Java 21.0.6 with PID 27936 (C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice\target\classes started by 2393375 in C:\Users\2393375\Downloads\microservices-master\microservices-master\user-sevice)
+2025-07-03 18:00:15 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 18:00:15 [restartedMain] INFO  : Fetching config from server at : http://localhost:8000
+2025-07-03 18:00:15 [restartedMain] INFO  : Located environment: name=USER-SERVICE, profiles=[default], label=null, version=69cc3ed8a3911abfac01c5ae9b1dba3baa20604c, state=
+2025-07-03 18:00:15 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 18:00:15 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 18:00:16 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 18:00:16 [restartedMain] INFO  : Finished Spring Data repository scanning in 161 ms. Found 5 JPA repository interfaces.
+2025-07-03 18:00:17 [restartedMain] INFO  : BeanFactory id=ebad0cc5-833b-3247-8784-14626a01ad96
+2025-07-03 18:00:17 [restartedMain] INFO  : Tomcat initialized with port 8081 (http)
+2025-07-03 18:00:17 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8081"]
+2025-07-03 18:00:17 [restartedMain] INFO  : Starting service [Tomcat]
+2025-07-03 18:00:17 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-03 18:00:17 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-07-03 18:00:17 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2107 ms
+2025-07-03 18:00:17 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 18:00:17 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-07-03 18:00:17 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-07-03 18:00:18 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 18:00:18 [restartedMain] INFO  : HikariPool-1 - Starting...
+2025-07-03 18:00:18 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74c162eb
+2025-07-03 18:00:18 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2025-07-03 18:00:19 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 18:00:21 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 18:00:21 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 18:00:22 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailService
+2025-07-03 18:00:22 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 18:00:24 [restartedMain] WARN  : Unable to start LiveReload server
+2025-07-03 18:00:24 [restartedMain] INFO  : Eureka HTTP Client uses RestTemplate.
+2025-07-03 18:00:24 [restartedMain] WARN  : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-03 18:00:24 [restartedMain] INFO  : Setting initial instance status as: STARTING
+2025-07-03 18:00:24 [restartedMain] INFO  : Initializing Eureka in region us-east-1
+2025-07-03 18:00:24 [restartedMain] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 18:00:24 [restartedMain] INFO  : Disable delta property : false
+2025-07-03 18:00:24 [restartedMain] INFO  : Single vip registry refresh property : null
+2025-07-03 18:00:24 [restartedMain] INFO  : Force full registry fetch : false
+2025-07-03 18:00:24 [restartedMain] INFO  : Application is null : false
+2025-07-03 18:00:24 [restartedMain] INFO  : Registered Applications size is zero : true
+2025-07-03 18:00:24 [restartedMain] INFO  : Application version is -1: true
+2025-07-03 18:00:24 [restartedMain] INFO  : Getting all instance registry info from the eureka server
+2025-07-03 18:00:25 [restartedMain] INFO  : The response status is 200
+2025-07-03 18:00:25 [restartedMain] INFO  : Starting heartbeat executor: renew interval is: 30
+2025-07-03 18:00:25 [restartedMain] INFO  : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-03 18:00:25 [restartedMain] INFO  : Discovery Client initialized at timestamp 1751545825068 with initial instances count: 0
+2025-07-03 18:00:25 [restartedMain] INFO  : Registering application USER-SERVICE with eureka with status UP
+2025-07-03 18:00:25 [restartedMain] INFO  : Saw local status change event StatusChangeEvent [timestamp=1751545825072, current=UP, previous=STARTING]
+2025-07-03 18:00:25 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8081"]
+2025-07-03 18:00:25 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081: registering service...
+2025-07-03 18:00:25 [restartedMain] INFO  : Tomcat started on port 8081 (http) with context path '/'
+2025-07-03 18:00:25 [restartedMain] INFO  : Updating port to 8081
+2025-07-03 18:00:25 [restartedMain] INFO  : Started ClickfixApplication in 11.972 seconds (process running for 13.123)
+2025-07-03 18:00:25 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - registration status: 204
+2025-07-03 18:00:55 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  : Disable delta property : false
+2025-07-03 18:00:55 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  : Single vip registry refresh property : null
+2025-07-03 18:00:55 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  : Force full registry fetch : false
+2025-07-03 18:00:55 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  : Application is null : false
+2025-07-03 18:00:55 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  : Registered Applications size is zero : true
+2025-07-03 18:00:55 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  : Application version is -1: false
+2025-07-03 18:00:55 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  : Getting all instance registry info from the eureka server
+2025-07-03 18:00:55 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  : The response status is 200
+2025-07-03 18:05:24 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 18:06:31 [http-nio-8081-exec-1] INFO  : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x030x010xf40x010x000x010xf00x030x030xa30x120xac0x860x8d0x070x01x0x8b4U0x8c0x02C0x970xf2V0x8c0x180xa00x970xc40xfe0x0b0xa10x040xe4Qd%r0x160x000x01|0x000x000x000x010x000x020x000x030x000x040x000x050x000x060x000x070x000x080x000x090x000x0a0x000x0b0x000x0c0x000x0d0x000x0e0x000x0f0x000x100x000x110x000x120x000x130x000x140x000x150x000x160x000x170x000x180x000x190x000x1a0x000x1b0x00/0x0000x0010x0020x0030x0040x0050x0060x0070x0080x0090x00:0x00;0x00<0x00=0x00>0x00?0x00@0x00A0x00B0x00C0x00D0x00E0x00F0x00g0x00h0x00i0x00j0x00k0x00l0x00m0x000x840x000x850x000x860x000x870x000x880x000x890x000x960x000x970x000x980x000x990x000x9a0x000x9b0x000x9c0x000x9d0x000x9e0x000x9f0x000xa00x000xa10x000xa20x000xa30x000xa40x000xa50x000xa60x000xa70x000xba0x000xbb0x000xbc0x000xbd0x000xbe0x000xbf0x000xc00x000xc10x000xc20x000xc30x000xc40x000xc50x130x010x130x020x130x030x130x040x130x050xc00x010xc00x020xc00x030xc00x040xc00x050xc00x060xc00x070xc00x080xc00x090xc00x0a0xc00x0b0xc00x0c0xc00x0d0xc00x0e0xc00x0f0xc00x100xc00x110xc00x120xc00x130xc00x140xc00x150xc00x160xc00x170xc00x180xc00x190xc0#0xc0$0xc0%0xc0&0xc0'0xc0(0xc0)0xc0*0xc0+0xc0,0xc0-0xc0.0xc0/0xc000xc010xc020xc0r0xc0s0xc0t0xc0u0xc0v0xc0w0xc0x0xc0y0xc0z0xc0{0xc0|0xc0}0xc0~0xc00x7f0xc00x800xc00x810xc00x820xc00x830xc00x840xc00x850xc00x860xc00x870xc00x880xc00x890xc00x8a0xc00x8b0xc00x8c0xc00x8d0xc00x8e0xc00x8f0xc00x900xc00x910xc00x920xc00x930xc00x940xc00x950xc00x960xc00x970xc00x980xc00x990xc00x9a0xc00x9b0xcc0xa80xcc0xa90xcc0xaa0xcc0xab0xcc0xac0xcc0xad0xcc0xae0x020x000x010x00J0x000x0a0x000x0a0x000x080x000x170x000x190x000x180x000x160x000x0b0x000x040x030x000x010x020x000x0d0x0000x00.0x040x030x050x030x060x030x080x070x080x080x080x1a0x080x1b0x080x1c0x080x090x080x0a0x080x0b0x080x040x080x050x080x060x040x010x050x010x060x010x030x030x030x010x030x020x040x020x050x020x060x02...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:403)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-03 18:10:24 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 18:15:24 [AsyncResolver-bootstrap-executor-%d] INFO  : Resolving eureka endpoints via configuration
+2025-07-03 18:15:26 [DiscoveryClient-HeartbeatExecutor-%d] INFO  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:845)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1402)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:183)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 19 more
+
+2025-07-03 18:15:26 [DiscoveryClient-HeartbeatExecutor-%d] WARN  : Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2025-07-03 18:15:26 [DiscoveryClient-HeartbeatExecutor-%d] INFO  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:845)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1402)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:183)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 20 more
+
+2025-07-03 18:15:26 [DiscoveryClient-HeartbeatExecutor-%d] WARN  : Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2025-07-03 18:15:26 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:174)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:186)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1080)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:963)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1473)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1441)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:183)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 23 more
+
+2025-07-03 18:15:26 [DiscoveryClient-CacheRefreshExecutor-%d] WARN  : Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2025-07-03 18:15:26 [DiscoveryClient-HeartbeatExecutor-%d] ERROR : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:845)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1402)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-03 18:15:26 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1080)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:963)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1473)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1441)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-07-03 18:15:28 [RMI TCP Connection(37)-127.0.0.1] INFO  : Application shutdown requested.
+2025-07-03 18:15:28 [RMI TCP Connection(37)-127.0.0.1] INFO  : Unregistering application USER-SERVICE with eureka with status DOWN
+2025-07-03 18:15:28 [RMI TCP Connection(37)-127.0.0.1] INFO  : Saw local status change event StatusChangeEvent [timestamp=1751546728321, current=DOWN, previous=UP]
+2025-07-03 18:15:28 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081: registering service...
+2025-07-03 18:15:28 [RMI TCP Connection(37)-127.0.0.1] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 18:15:28 [tomcat-shutdown] INFO  : Pausing ProtocolHandler ["http-nio-8081"]
+2025-07-03 18:15:28 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-07-03 18:15:28 [RMI TCP Connection(37)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-8081"]
+2025-07-03 18:15:28 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/USER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/USER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:183)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 22 more
+
+2025-07-03 18:15:28 [DiscoveryClient-InstanceInfoReplicator-%d] WARN  : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/USER-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2025-07-03 18:15:28 [DiscoveryClient-InstanceInfoReplicator-%d] WARN  : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-03 18:15:28 [DiscoveryClient-InstanceInfoReplicator-%d] WARN  : There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-03 18:15:28 [RMI TCP Connection(37)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 18:15:28 [RMI TCP Connection(37)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2025-07-03 18:15:28 [RMI TCP Connection(37)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.
+2025-07-03 18:15:28 [RMI TCP Connection(37)-127.0.0.1] INFO  : Shutting down DiscoveryClient ...
+2025-07-03 18:15:31 [RMI TCP Connection(37)-127.0.0.1] INFO  : Unregistering ...
+2025-07-03 18:15:31 [RMI TCP Connection(37)-127.0.0.1] INFO  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:100)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:387)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:134)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:798)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:748)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:707)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1467)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1219)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:179)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:64)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:97)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:115)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:52)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:236)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:183)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 69 more
+
+2025-07-03 18:15:31 [RMI TCP Connection(37)-127.0.0.1] WARN  : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2025-07-03 18:15:31 [RMI TCP Connection(37)-127.0.0.1] ERROR : DiscoveryClient_USER-SERVICE/LTIN606946.cts.com:USER-SERVICE:8081 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:387)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:134)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:798)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:748)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:707)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1467)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1219)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:179)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:64)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:97)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:115)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:52)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:236)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-03 18:15:31 [RMI TCP Connection(37)-127.0.0.1] INFO  : Completed shut down of DiscoveryClient
