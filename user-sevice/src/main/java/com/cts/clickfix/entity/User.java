@@ -26,7 +26,6 @@ public class User {
 	private String phone;
 	@Column(nullable = false,unique = true)
 	private String email;
-	@OneToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
-	private List<Roles> roles;
+
 	
 }

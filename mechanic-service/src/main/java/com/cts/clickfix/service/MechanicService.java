@@ -1,6 +1,5 @@
 package com.cts.clickfix.service;
 
-import java.io.Serializable;
 import java.util.Optional;
 
 import org.modelmapper.ModelMapper;
@@ -9,11 +8,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.client.RestTemplate;
 
-import com.cts.clickfix.appconfig.BookingFeignClient;
-import com.cts.clickfix.appconfig.UserFeignClient;
 import com.cts.clickfix.entity.Mechanic;
 import com.cts.clickfix.exception.MechanicIdIsNotFoundException;
 import com.cts.clickfix.exception.MechanicUpdateFailureException;
@@ -30,14 +26,6 @@ public class MechanicService  { //Source code under test or SUT
 	@Autowired
 	private ModelMapper modelMapper;
 	
-	@Autowired
-	private RestTemplate restTemplate;
-	
-	@Autowired
-	private BookingFeignClient bookingFeignClient;
-	
-	@Autowired
-	private UserFeignClient userFeignClient;
 
 	private Logger logger=LoggerFactory.getLogger(MechanicService.class);
 	
@@ -63,8 +51,8 @@ public class MechanicService  { //Source code under test or SUT
 	public UserDto getMechanicById(int mechanicId,String userEmail) {
 //		UserDto response=restTemplate.getForObject("http://USER-SERVICE/user-api/users/"+userEmail,UserDto.class);
 //		System.out.println(response);
-//		
-		return userFeignClient.findUser(userEmail);
+//		userFeignClient.findUser(userEmail)
+		return null;
 	}
 	public String deleteMechanicById(@PathVariable int mechanicId) {
 		String response = null;
@@ -93,9 +81,9 @@ public class MechanicService  { //Source code under test or SUT
 //		BookingDto response = restTemplate.getForObject("http://BOOKING-SERVICE/booking-api/bookings/"+bookingId, BookingDto.class);
 //		System.out.println(response);
 //		//persist the booking object
-		BookingDto response=bookingFeignClient.findBooking(bookingId); 
+		//BookingDto response=bookingFeignClient.findBooking(bookingId);
 							
-		return response;
+		return null;
 	}
 
 }

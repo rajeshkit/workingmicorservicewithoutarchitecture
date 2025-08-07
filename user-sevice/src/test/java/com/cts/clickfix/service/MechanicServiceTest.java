@@ -16,10 +16,7 @@ import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.modelmapper.ModelMapper;
 
-import com.cts.clickfix.entity.Mechanic;
 import com.cts.clickfix.exception.MechanicIdIsNotFoundException;
-import com.cts.clickfix.model.MechanicDto;
-import com.cts.clickfix.repository.MechanicRepository;
 
 @ExtendWith(MockitoExtension.class)
 class MechanicServiceTest {

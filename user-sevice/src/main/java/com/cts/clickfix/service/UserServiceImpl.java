@@ -3,7 +3,7 @@ package com.cts.clickfix.service;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.password.PasswordEncoder;
+
 import org.springframework.stereotype.Service;
 
 import com.cts.clickfix.controller.UserController;
@@ -20,8 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 public class UserServiceImpl implements UserService {
 	
 	
-	  @Autowired 
-	  private PasswordEncoder passwordEncoder;		
+
 	@Autowired
 	private ModelMapper modelMapper;
 
@@ -36,7 +35,6 @@ public class UserServiceImpl implements UserService {
 		userDto.setPassword(userDto.getPassword());
 		User user = modelMapper.map(userDto, User.class);
 		System.out.println(user);
-		user.setPassword(passwordEncoder.encode(user.getPassword()));
 		User user1=userRepository.save(user);
 		return modelMapper.map(user1, UserDto.class);
 	}
