@@ -29,13 +29,14 @@ public class BookingController {
 	@PostMapping(value = "/bookings")
 	public BookingDto addBooking(@RequestBody BookingDto bookingDto) {
 		bookingDto.setDate(LocalDate.now());
-		bookingDto.setTimeSlot(LocalTime.now());
+		//bookingDto.setTimeSlot(LocalTime.now());
 		return bookingService.addBooking(bookingDto);
 	}
 	@GetMapping(value="/bookings/{bookingId}")
 	public BookingDto getBookingById(@PathVariable int bookingId) {
 		return bookingService.getBookingById(bookingId);
 	}
+
 	@GetMapping("/bookings/user/{userId}")
 	public ResponseEntity<List<BookingDto>> getBookingsByUserId(@PathVariable int userId) {
 	    List<BookingDto> bookings = bookingService.getBookingsByUserId(userId);

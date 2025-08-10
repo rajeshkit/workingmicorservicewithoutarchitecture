@@ -2,6 +2,7 @@ package com.cts.clickfix.service;
 
 import java.util.Optional;
 
+import com.cts.clickfix.appconfig.FeignClientUserService;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,7 +26,9 @@ public class MechanicService  { //Source code under test or SUT
 
 	@Autowired
 	private ModelMapper modelMapper;
-	
+
+	@Autowired
+	private FeignClientUserService feignClientUserService;
 
 	private Logger logger=LoggerFactory.getLogger(MechanicService.class);
 	
@@ -48,11 +51,14 @@ public class MechanicService  { //Source code under test or SUT
 		return mechanicDto;
 
 	}
+
 	public UserDto getMechanicById(int mechanicId,String userEmail) {
-//		UserDto response=restTemplate.getForObject("http://USER-SERVICE/user-api/users/"+userEmail,UserDto.class);
+//	UserDto response=
+//		restTemplate.getForObject("http://USER-SERVICE/user-api/users/"+userEmail,UserDto.class);
 //		System.out.println(response);
-//		userFeignClient.findUser(userEmail)
-		return null;
+											//rajesh.kit@gmail.com
+		UserDto user=feignClientUserService.getUserByEmail(userEmail);
+		return user;
 	}
 	public String deleteMechanicById(@PathVariable int mechanicId) {
 		String response = null;
@@ -82,7 +88,6 @@ public class MechanicService  { //Source code under test or SUT
 //		System.out.println(response);
 //		//persist the booking object
 		//BookingDto response=bookingFeignClient.findBooking(bookingId);
-							
 		return null;
 	}
 

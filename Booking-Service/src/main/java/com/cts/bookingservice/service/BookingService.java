@@ -69,7 +69,7 @@ public class BookingService {
 		boolean exists = bookingRepository.existsById(bookingDto.getBookingId());
 		if (exists) {
 			bookingDto.setDate(LocalDate.now());
-			bookingDto.setTimeSlot(LocalTime.now());
+		//	bookingDto.setTimeSlot(LocalTime.now());
 			Booking booking = modelMapper.map(bookingDto, Booking.class);
 			Booking updatedBooking = bookingRepository.save(booking);
 			return modelMapper.map(updatedBooking, BookingDto.class);

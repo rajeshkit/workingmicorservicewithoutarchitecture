@@ -22,12 +22,10 @@ public class BookingDto {
 	private int userId;
 	@NotNull(message = "vehicle id should not be null please enter vehicle id")
 	private int vehicleId;
-	@NotNull(message = "service ceneter id should not be null please enter center id")
+	@NotNull(message = "service center id should not be null please enter center id")
 	private int serviceCenterId;
 	@FutureOrPresent
 	private LocalDate date;
-	@FutureOrPresent
-	private LocalTime timeSlot;
 	private String status;
 
 }
